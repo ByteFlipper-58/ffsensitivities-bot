@@ -68,7 +68,7 @@ class KeyboardBuilder:
 
         # Кнопки возврата
         keyboard.append([
-            InlineKeyboardButton(locale_manager.translate('back'), callback_data='manufacturers'),
+            InlineKeyboardButton(locale_manager.translate('back'), callback_data=f'manufacturer:{manufacturer}'),
             InlineKeyboardButton(locale_manager.translate('home'), callback_data='home')
         ])
 

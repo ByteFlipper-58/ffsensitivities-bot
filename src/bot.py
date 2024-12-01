@@ -1,7 +1,12 @@
 import logging
+import os
+from dotenv import load_dotenv
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler
 from .handlers import BotHandlers
 from .utils import ConfigManager
+
+# Загрузка переменных окружения
+load_dotenv()
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', 
@@ -10,10 +15,12 @@ logging.basicConfig(
 
 def main():
     config_manager = ConfigManager()
-    bot_token = config_manager.get_config('bot', 'token')
+    
+    # Получаем токен из переменных окружения
+    bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
     
     if not bot_token or bot_token == 'YOUR_BOT_TOKEN':
-        print("Please set your Telegram Bot token in config.yaml")
+        print("Please set your Telegram Bot token in .env file")
         return
 
     handlers = BotHandlers()

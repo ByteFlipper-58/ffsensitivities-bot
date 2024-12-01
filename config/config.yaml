@@ -1,5 +1,7 @@
 bot:
-  token: 'YOUR_BOT_TOKEN'
+  #token: 'YOUR_BOT_TOKEN'
+  # Add the bot token to .env file
+  # Example: TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN 
   
 pagination:
   manufacturers_per_page: 8
