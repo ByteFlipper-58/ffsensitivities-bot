@@ -1,0 +1,17 @@
+bot:
+  token: 'YOUR_BOT_TOKEN'
+  
+pagination:
+  manufacturers_per_page: 8
+  models_per_page: 8
+  manufacturers_columns: 2
+
+languages:
+  default: 'ru'
+  supported: 
+    - 'ru'
+    - 'en'
+
+data_sources:
+  manufacturers_url: 'https://raw.githubusercontent.com/ByteFlipper-58/database/refs/heads/main/FFSensitivities/manufacturers.json'
+  base_model_url: 'https://raw.githubusercontent.com/ByteFlipper-58/database/refs/heads/main/FFSensitivities/{model}.json'

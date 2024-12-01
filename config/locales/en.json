@@ -1,0 +1,13 @@
+{
+    "start_message": "Choose an action:",
+    "sensitivity_settings": "Sensitivity Settings",
+    "support": "Support",
+    "channel": "Channel",
+    "request_settings": "Request Settings", 
+    "download_app": "Download App",
+    "back": "Back",
+    "home": "Home",
+    "select_manufacturer": "Select Manufacturer:",
+    "select_model": "Select Model for {manufacturer}:",
+    "model_details": "Model: {manufacturer} {name}\nDPI: {dpi}\nFire Button: {fire_button}\n\nSensitivity Settings:\n- Review: {review}\n- Collimator: {collimator}\n- 2x Scope: {x2_scope}\n- 4x Scope: {x4_scope}\n- Sniper Scope: {sniper_scope}\n- Free Review: {free_review}"
+}

@@ -1,0 +1,13 @@
+{
+    "start_message": "Выберите действие:",
+    "sensitivity_settings": "Настройки чувствительности",
+    "support": "Поддержка",
+    "channel": "Канал", 
+    "request_settings": "Запрос настроек",
+    "download_app": "Скачать приложение",
+    "back": "Назад",
+    "home": "Домой",
+    "select_manufacturer": "Выберите производителя:",
+    "select_model": "Выберите модель для {manufacturer}:",
+    "model_details": "Модель: {manufacturer} {name}\nDPI: {dpi}\nКнопка огня: {fire_button}\n\nНастройки чувствительности:\n- Обзор: {review}\n- Коллиматор: {collimator}\n- 2х Прицел: {x2_scope}\n- 4х Прицел: {x4_scope}\n- Снайперский прицел: {sniper_scope}\n- Свободный Обзор: {free_review}"
+}
