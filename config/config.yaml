@@ -1,3 +1,5 @@
+# config/config.yaml
+
 bot:
   #token: 'YOUR_BOT_TOKEN'
   # Add the bot token to .env file

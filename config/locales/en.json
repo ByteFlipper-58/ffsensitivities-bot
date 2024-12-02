@@ -9,5 +9,11 @@
     "home": "Home",
     "select_manufacturer": "Select Manufacturer:",
     "select_model": "Select Model for {manufacturer}:",
-    "model_details": "Model: {manufacturer} {name}\nDPI: {dpi}\nFire Button: {fire_button}\n\nSensitivity Settings:\n- Review: {review}\n- Collimator: {collimator}\n- 2x Scope: {x2_scope}\n- 4x Scope: {x4_scope}\n- Sniper Scope: {sniper_scope}\n- Free Review: {free_review}"
+    "model_details": "Model: {manufacturer} {name}\nDPI: {dpi}\nFire Button: {fire_button}\n\nSensitivity Settings:\n- Review: {review}\n- Collimator: {collimator}\n- 2x Scope: {x2_scope}\n- 4x Scope: {x4_scope}\n- Sniper Scope: {sniper_scope}\n- Free Review: {free_review}",
+    "review": "Review",
+    "collimator": "Collimator",
+    "x2_scope": "x2 Scope",
+    "x4_scope": "x4 Scope",
+    "sniper_scope": "Sniper Scope",
+    "free_review": "Free Review"
 }

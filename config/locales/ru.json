@@ -9,5 +9,11 @@
     "home": "Домой",
     "select_manufacturer": "Выберите производителя:",
     "select_model": "Выберите модель для {manufacturer}:",
-    "model_details": "Модель: {manufacturer} {name}\nDPI: {dpi}\nКнопка огня: {fire_button}\n\nНастройки чувствительности:\n- Обзор: {review}\n- Коллиматор: {collimator}\n- 2х Прицел: {x2_scope}\n- 4х Прицел: {x4_scope}\n- Снайперский прицел: {sniper_scope}\n- Свободный Обзор: {free_review}"
+    "model_details": "Модель: {manufacturer} {name}\nDPI: {dpi}\nКнопка огня: {fire_button}\n\nНастройки чувствительности:\n- Обзор: {review}\n- Коллиматор: {collimator}\n- 2х Прицел: {x2_scope}\n- 4х Прицел: {x4_scope}\n- Снайперский прицел: {sniper_scope}\n- Свободный Обзор: {free_review}",
+    "review": "Обзор",
+    "collimator": "Коллиматор",
+    "x2_scope": "Прицел x2",
+    "x4_scope": "Прицел x4",
+    "sniper_scope": "Снайперский прицел",
+    "free_review": "Свободный обзор"
 }

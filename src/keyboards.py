@@ -1,3 +1,5 @@
+# src/keyboards.py
+
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from typing import List, Dict
 
@@ -6,10 +8,10 @@ class KeyboardBuilder:
     def build_main_menu(locale_manager):
         keyboard = [
             [InlineKeyboardButton(locale_manager.translate('sensitivity_settings'), callback_data='manufacturers')],
-            [InlineKeyboardButton(locale_manager.translate('support'), callback_data='support')],
-            [InlineKeyboardButton(locale_manager.translate('channel'), callback_data='channel')],
-            [InlineKeyboardButton(locale_manager.translate('request_settings'), callback_data='request_settings')],
-            [InlineKeyboardButton(locale_manager.translate('download_app'), callback_data='download_app')]
+            [InlineKeyboardButton(locale_manager.translate('support'), url='https://t.me/ibremminer837')],
+            [InlineKeyboardButton(locale_manager.translate('channel'), url='https://t.me/byteflipper')],
+            [InlineKeyboardButton(locale_manager.translate('request_settings'), url='https://t.me/byteflipper_feedback_bot')],
+            [InlineKeyboardButton(locale_manager.translate('download_app'), url='https://play.google.com/store/apps/details?id=com.byteflipper.ffsensitivities')]
         ]
         return InlineKeyboardMarkup(keyboard)
 
